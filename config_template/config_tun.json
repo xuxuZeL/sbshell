@@ -63,6 +63,12 @@
       {
         "rule_set": "geosite-geolocation-!cn",
         "server": "proxyDns"
+      },
+      {
+        "domain": [
+          "vercel.liangzexu.cn"
+        ],
+        "outbound": "🚀 节点选择"
       }
     ],
     "final": "localDns",
