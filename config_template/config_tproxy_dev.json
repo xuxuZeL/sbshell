@@ -27,7 +27,7 @@
    [
      {"tag": "dns_direct", "address": "https://dns.alidns.com/dns-query", "address_resolver": "defaultDns", "address_strategy": "ipv4_only", "strategy": "ipv4_only", "detour": "🎯 全球直连"},
      {"tag": "dns_proxy", "address": "https://1.1.1.1/dns-query", "address_resolver": "defaultDns", "address_strategy": "ipv4_only", "strategy": "ipv4_only", "detour": "🚀 节点选择"},
-     {"tag": "defaultDns", "address": "180.184.1.1", "address_resolver": "defaultDns", "address_strategy": "ipv4_only", "detour": "🎯 全球直连"}
+     {"tag": "defaultDns", "address": "180.184.1.1", "address_strategy": "ipv4_only", "detour": "🎯 全球直连"}
      
    ],
    "rules": 
